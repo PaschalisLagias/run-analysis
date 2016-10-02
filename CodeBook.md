@@ -50,7 +50,7 @@ subset_vec: The vector used to extract the columns with means and standard devia
 "all" data frame.
 
 
-MeanStd: The data frame with columns that include onle means and standard deviations + activity
+MeanStd: The data frame with columns that include only means and standard deviations + activity
 and subject id.
 
 
