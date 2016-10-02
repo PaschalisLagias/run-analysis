@@ -1,6 +1,6 @@
-##This is the Code Book for the run_analysis script.
+#This is the Code Book for the run_analysis script.
 
-#The following variables were used:
+##The following variables were used:
 
 url: The link to the zipped data
 
