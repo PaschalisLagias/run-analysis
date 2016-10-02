@@ -19,15 +19,15 @@ More details about the representation of every initial data frame by a variable 
 in the Code Book.
 
 4. Name the columns of the data frames.
-Using colnames() function, we assign new column names to the following datasets:
-* "training" dataset (x_tr) --> takes column names from "features.txt".
-* "test" dataset (x_test) --> takes column names from "features.txt".
-* "training" dataset activity ids (y_tr) --> "Activity" is assigned as column name.
-* "test" dataset activity ids (x_tr) --> "Activity" is assigned as column name.
-* "training" dataset subject ids (sub_tr) --> "SubjectId" is assigned as column name.
-* "test" dataset subject ids (sub_test) --> "SubjectId" is assigned as column name.
-* "Activity" dataset with activity ids and names (activities) --> "ActivityId" & "ActivityName" are assigned
-  as column names.
+  Using colnames() function, we assign new column names to the following datasets:
+  - "training" dataset (x_tr) --> takes column names from "features.txt".
+  - "test" dataset (x_test) --> takes column names from "features.txt".
+  - "training" dataset activity ids (y_tr) --> "Activity" is assigned as column name.
+  - "test" dataset activity ids (x_tr) --> "Activity" is assigned as column name.
+  - "training" dataset subject ids (sub_tr) --> "SubjectId" is assigned as column name.
+  - "test" dataset subject ids (sub_test) --> "SubjectId" is assigned as column name.
+  - "Activity" dataset with activity ids and names (activities) --> "ActivityId" & "ActivityName" are assigned
+    as column names.
 
 5. Merge data.
 Initially, we form the full "training" & "test" datasets by adding the respective columns of "Activity"
